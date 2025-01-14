@@ -20,6 +20,6 @@ En este repositorio se expondrán varios entrenamientos. El motivo de esto es po
 - 90 épocas
 - 10 paciencia
 
-## Modelo C
+### Modelo C
 - 40 épocas
 - 8 paciencia
