@@ -8,3 +8,14 @@ Este proyecto esta dedicado a la personalización de un modelo de detección gra
 El dataset correspondiente, se le aplicó una técnica de muestreo llamado **K-FOLD CROSS VALIDATION (K-FCV)**, por lo que se obtuvieron 5 splits. En este sentido, se tienen 5 particiones que se pueden entrenar independientemente, ya que, estos tienen diferentes datos, especialmente la carpeta de validación. Cada carpeta de validación es única entre cada 5 split.
 
 Con los 5 folds, se procedió a un entrenamiento individual, por lo que se recurrió a Google Colab con su GPU Tesla T4 para el entrenamiento de cada particición, puesto que el equipo de cómputo personal no era suficiente. Finalmente, el proceso realizado de los entrenamientos se guardan como cuadernos de jupyter, permitiendo su consulta en cualquiero momento.
+
+## ENTRENAMIENTOS
+En este repositorio se expondrán varios entrenamientos. El motivo de esto es por que cada entrenamiento se realizó bajo diferentes parámetros y valores, como por ejemplo, diferentes valores de épocas o de paciencia. Para la identificación de cada entrenamiento, se ha nombrado de la siguiente manera con las siguientes caracteristicas.:
+
+### Modelo A
+- 90 épocas
+- 0 paciencia
+
+### Modelo B
+- 90 épocas
+- 10 paciencia
