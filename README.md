@@ -19,3 +19,7 @@ En este repositorio se expondrán varios entrenamientos. El motivo de esto es po
 ### Modelo B
 - 90 épocas
 - 10 paciencia
+
+## Modelo C
+- 40 épocas
+- 8 paciencia
